@@ -11,7 +11,8 @@
 │   ├─ 01_data_parsing.ipynb                    # сбор данных: парсинг
 │   ├─ 02_data_api_processing_grouping.ipynb    # API+его обработка и группировка
 │   ├─ 03_data_api_processing_grouping.ipynb    # API+его обработка и merge
-│   └─ 04_eda.ipynb                             # EDA
+│   ├─ 04_eda.ipynb
+    └─ 04_eda.ipynb                            # EDA
 └─ README.md
 
 ```
