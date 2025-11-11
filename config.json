@@ -1,0 +1,19 @@
+{
+    "logging": {
+        "enabled": true,
+        "level": "INFO",
+        "log_to_file": true,
+        "log_to_console": true,
+        "log_directory": "logs"
+    },
+    "api": {
+        "key": "f50ee13f-107c-47c0-bae5-bf3feb6750bc",
+        "timeout": 10,
+        "sleep_between_requests": 0.5
+    },
+    "data_collection": {
+        "page_size": 10,
+        "max_pages": 5,
+        "sleep_between_districts": 1
+    }
+}
