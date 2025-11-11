@@ -1,0 +1,50 @@
+2025-10-30 21:49:14,802 - INFO - [<cell line: 0>] - ============================================================
+2025-10-30 21:49:14,803 - INFO - [<cell line: 0>] - ЗАПУСК СБОРА ДАННЫХ ПО МУЗЕЯМ МОСКВЫ
+2025-10-30 21:49:14,804 - INFO - [<cell line: 0>] - Конфигурация логирования: уровень=DEBUG, файл=True, консоль=True
+2025-10-30 21:49:14,805 - INFO - [<cell line: 0>] - Количество районов для обработки: 132
+2025-10-30 21:49:14,806 - INFO - [<cell line: 0>] - ============================================================
+2025-10-30 21:49:14,806 - INFO - [<cell line: 0>] - [1/132] Обработка района: Академический
+2025-10-30 21:49:14,807 - INFO - [получить_музеи_в_районе] - Начало сбора музеев для района: Академический (ID: 4504209512726625)
+2025-10-30 21:49:14,808 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 1 для района Академический
+2025-10-30 21:49:14,809 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:15,281 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726625&type=branch&page=1&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 None
+2025-10-30 21:49:15,282 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:15,282 - INFO - [получить_музеи_в_районе] - Загружено 8 кафе со страницы 1
+2025-10-30 21:49:15,283 - ERROR - [получить_музеи_в_районе] - Ошибка на странице 1: name 'все_музеии' is not defined
+2025-10-30 21:49:15,784 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 2 для района Академический
+2025-10-30 21:49:15,786 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:16,261 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726625&type=branch&page=2&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 133
+2025-10-30 21:49:16,262 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:16,262 - WARNING - [получить_музеи_в_районе] - На странице 2 нет данных в ожидаемом формате
+2025-10-30 21:49:16,764 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 3 для района Академический
+2025-10-30 21:49:16,765 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:17,135 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726625&type=branch&page=3&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 133
+2025-10-30 21:49:17,136 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:17,136 - WARNING - [получить_музеи_в_районе] - На странице 3 нет данных в ожидаемом формате
+2025-10-30 21:49:17,637 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 4 для района Академический
+2025-10-30 21:49:17,638 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:18,029 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726625&type=branch&page=4&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 133
+2025-10-30 21:49:18,030 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:18,030 - WARNING - [получить_музеи_в_районе] - На странице 4 нет данных в ожидаемом формате
+2025-10-30 21:49:18,531 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 5 для района Академический
+2025-10-30 21:49:18,532 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:18,923 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726625&type=branch&page=5&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 133
+2025-10-30 21:49:18,924 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:18,924 - WARNING - [получить_музеи_в_районе] - На странице 5 нет данных в ожидаемом формате
+2025-10-30 21:49:18,925 - INFO - [получить_музеи_в_районе] - Завершение сбора для района Академический. Найдено музеев: 0
+2025-10-30 21:49:18,927 - INFO - [<cell line: 0>] - Район 'Академический' завершен. Музеев: 0
+2025-10-30 21:49:19,928 - INFO - [<cell line: 0>] - [2/132] Обработка района: Алексеевский
+2025-10-30 21:49:19,929 - INFO - [получить_музеи_в_районе] - Начало сбора музеев для района: Алексеевский (ID: 4504209512726568)
+2025-10-30 21:49:19,930 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 1 для района Алексеевский
+2025-10-30 21:49:19,932 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:20,310 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726568&type=branch&page=1&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 None
+2025-10-30 21:49:20,310 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:20,311 - INFO - [получить_музеи_в_районе] - Загружено 2 кафе со страницы 1
+2025-10-30 21:49:20,311 - ERROR - [получить_музеи_в_районе] - Ошибка на странице 1: name 'все_музеии' is not defined
+2025-10-30 21:49:20,813 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 2 для района Алексеевский
+2025-10-30 21:49:20,814 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
+2025-10-30 21:49:21,188 - DEBUG - [_make_request] - https://catalog.api.2gis.com:443 "GET /3.0/items?key=c446e160-f8e9-420d-abcd-390476aa0e9f&q=%D0%BC%D1%83%D0%B7%D0%B5%D0%B9&district_id=4504209512726568&type=branch&page=2&page_size=10&fields=items.point%2Citems.name%2Citems.address_name%2Citems.reviews HTTP/1.1" 200 133
+2025-10-30 21:49:21,189 - DEBUG - [получить_музеи_в_районе] - Статус ответа: 200
+2025-10-30 21:49:21,189 - WARNING - [получить_музеи_в_районе] - На странице 2 нет данных в ожидаемом формате
+2025-10-30 21:49:21,690 - DEBUG - [получить_музеи_в_районе] - Запрос страницы 3 для района Алексеевский
+2025-10-30 21:49:21,691 - DEBUG - [_new_conn] - Starting new HTTPS connection (1): catalog.api.2gis.com:443
