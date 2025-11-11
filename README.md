@@ -135,19 +135,20 @@
 ---
 ### Пропущенные значения в данных до их обработки
 
-| Признак                                   | Кол-во пропусков | Процент (%) |
-|-------------------------------------------|------------------:|------------:|
-| average_rating_museum_in_area             | 3505             | 33.29%      |
-| kitchen_area                              | 1531             | 14.59%      |
-| developer                                 | 1402             | 13.32%      |
-| number_of_rooms                           | 1368             | 12.99%      |
-| average_rating_parks_in_area              | 1135             | 10.78%      |
-| apartment_segment                          | 592              | 5.62%       |
-| complex_name                              | 592              | 5.62%       |
-| average_rating_shopping_center_in_area    | 525              | 4.99%       |
-| living_area                               | 196              | 1.86%       |
-| street_house                              | 83               | 0.79%       |
-| average_rating_business_center_in_area    | 2                | 0.02%       |
+| Признак                                | Кол-во пропусков | Процент (%) |
+| -------------------------------------- | ---------------: | ----------: |
+| average_rating_museum_in_area          |             3505 |      33.29% |
+| kitchen_area                           |             1536 |      14.59% |
+| developer                              |             1402 |      13.32% |
+| number_of_rooms                        |             1368 |      12.99% |
+| apartment_segment                      |              592 |       5.62% |
+| complex_name                           |              592 |       5.62% |
+| average_rating_shopping_center_in_area |              525 |       4.99% |
+| living_area                            |              196 |       1.86% |
+| street_house                           |               83 |       0.79% |
+| average_rating_business_center_in_area |                2 |       0.02% |
+
+
 
 
 ## **Кодирование**
