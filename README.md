@@ -224,18 +224,18 @@
 
 Заметили, что один застройщик ЛСР назван по разному у разных квартир. Меняем всё на одно название.
 
-	| Признак | Количество пропусков | Процент пропусков |
-|---------|---------------------|-------------------|
-| average_rating_museum_in_area | 3,505 | 33.29% |
-| kitchen_area | 1,536 | 14.59% |
-| developer | 1,402 | 13.32% |
-| number_of_rooms | 1,368 | 12.99% |
-| apartment_segment | 592 | 5.62% |
-| complex_name | 592 | 5.62% |
-| average_rating_shopping_center_in_area | 525 | 4.99% |
-| living_area | 196 | 1.86% |
-| street_house | 83 | 0.79% |
-| average_rating_business_center_in_area | 2 | 0.02% |
+
+Признак	Количество пропусков	Процент пропусков
+average_rating_museum_in_area	3,505	33.29%
+kitchen_area	1,536	14.59%
+developer	1,402	13.32%
+number_of_rooms	1,368	12.99%
+apartment_segment	592	5.62%
+complex_name	592	5.62%
+average_rating_shopping_center_in_area	525	4.99%
+living_area	196	1.86%
+street_house	83	0.79%
+average_rating_business_center_in_area	2	0.02%
 
 В признаке 'developer' у нас 1402 пропуска. Посмотрим на названия комплексов, у которых пропущен застройщик:
 Всего таких комплексов 19 (20е значение - это NaN), заполним для них застройщиков по информации из интернета.
